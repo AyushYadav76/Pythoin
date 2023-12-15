@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="new3.css">
+    <title>AdoptaMate - Online Pet Adoption Platform</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" id="logo-link"><img id="logo" src="https://static.vecteezy.com/system/resources/previews/009/551/676/non_2x/shy-dog-logo-illustration-depicting-shy-dog-suitable-for-pet-company-free-vector.jpg" alt="logo"></a>
+            <div class="name"><h2>AdoptaMate</h2></div>
+            <div class="sign"><input type="submit" value="Sign in" id="signinBtn"></div>
+        </nav>
+        <hr>
+        <img src="https://thumbs.dreamstime.com/b/many-pets-different-isolated-white-87694876.jpg" alt="pet image" height="200px" width="100%">
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Discover lifelong companionship at our pet adoption and welfare website. Browse through a diverse array of furry friends eagerly awaiting loving homes. Our platform connects compassionate individuals with pets in need, promoting responsible adoption and ensuring the well-being of every adorable companion. Join us in creating happy tails and fostering a future filled with wagging joy!</p>
+        <hr>
+    </section>
+
+    <section>
+        <h2 class="h">Services</h2>
+        <div id="services">
+            <div class="adoption">
+                <h2>Adoption</h2>
+                <div class="scrolling-wrapper">
+                <div><img src="https://thumbs.dreamstime.com/b/golden-retriever-dog-21668976.jpg" alt="Dog image"></div>
+                <div><img src="https://content.jdmagicbox.com/comp/def_content/cat-adoption-centres/pdk0f4l4rk-cat-adoption-centres-8-tflj1.jpg?clr=" alt="Adoption Image 1"></div>
+                <div><img src="https://www.scottishspca.org/sites/default/files/styles/full_content/public/2019-09/Rabbit%20860x500.jpeg?itok=OvX2YuHA" alt="Adoption Image 2"></div>
+                <div><img src="https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/48983496/2/?bust=1601145540&width=720" alt="Adoption Image 3"></div>
+                <div><img src="https://img1.wsimg.com/isteam/ip/2f568e02-3d97-4de4-ac76-7c57ea58c224/goooo.JPG" alt="image 4"></div>
+                <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl4u7bDys9_Cc8h4GFaTPqFOy6bPz7KBLOtw&usqp=CAU" alt="Adoption Image 5"></div>
+                </div>
+                <p>
+                    At AdoptaMate, we are passionate about finding loving homes for pets in need. Our adoption process is designed to match pets with caring individuals and families. Explore our adoption services to find your perfect companion and bring joy to both your life and theirs. See our earlier successful adoptions and heartwarming stories.
+                </p>
+                <p><a href="adoptions.html">Find your companion</a></p>
+            </div>
+            <div class="welfare">
+                <h2>Animal Welfare</h2>
+                <div class="scrolling-wrapper">
+                <div><img src="https://www.frontstream.com/hubfs/Imported_Blog_Media/Fotolia_136953786_Subscription_Monthly_M.jpg" alt="image" height="200px" width="300px"></div>
+                <div><img src="https://content.jdmagicbox.com/comp/def_content/animal_welfare_organisations/default-animal-welfare-organisations-7.jpg" alt="Animal Welfare Image 1"></div>
+                <div><img src="https://farmsnotfactories.org/wp-content/uploads/2020/07/factory-pigs.jpg" alt="Animal Welfare Image 2"></div>
+                <div><img src="https://www.hindustantimes.com/ht-img/img/2023/05/12/550x309/According-to-a-2018-survey--the-state-has-850-000-_1683915398147.jpg" alt="Animal Welfare Image 3"></div>
+                <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRssqBOrWh7aM0qD5h9vg5UfxffvhjduBdQ3X2DNSjiNoNI0PmeZmC2fEQaoKslXYKsJc&usqp=CAU" alt="Animal Welfare Image 4"></div>
+                <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR49osAgYFC7L9bj-lGt_EFEdysTGnTt5WXZw&usqp=CAU" alt="Animal Welfare Image 5"></div>
+                </div>
+                <p>
+                    Animal welfare is at the heart of what we do. Our dedicated team works towards the well-being of every animal, ensuring they are treated with love and care. Learn more about our efforts in promoting animal welfare and join us in making a positive impact on the lives of animals in need.
+                </p>
+                <p><a href="new.html">Rescue Animal</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <section>
+            <div id="for">
+                <div class="query1">
+                    <h2>For Query</h2>
+                    <form>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name"><br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email"><br>
+                        <label for="contact">Contact No:</label>
+                        <input type="text" id="contact"><br>
+                        <label for="query">Enter Your Query:</label>
+                        <textarea id="query"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+                <div class="feedback">
+                    <h2>Feedback</h2>
+                    <p>Please give us your honest feedback about our services</p>
+                    <textarea placeholder="Feedback"></textarea>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="us">
+                <div id="contact">
+                    <h2>Contact:</h2>
+                    <p>+919696212403<br>+918318890719<br>+919983438249</p>
+                </div>
+                <div id="follow">
+                    <h2>Follow us on:</h2>
+                    <ul>
+                        <li>Instagram: <a href="https://www.instagram.com/adoptamate_76/">adoptamate_76</a></li>
+                        <li>Twitter: <a href="https://twitter.com/adoptamate_76">adoptamate_76</a></li>
+                        <li>Email: <a href="mailto:adoptamate76@gmail.com">adoptamate76@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script>
+        document.getElementById("signinBtn").addEventListener("click", function () {
+            window.location.href = "signin.html";
+        });
+    </script>
+</body>
+</html>
